@@ -1,0 +1,153 @@
+
+html {
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1526376043067-5af36c35cd6c?ixlib=rb-0.3.5&s=aafddb2ff89e5a523bc24db66811aa3b&auto=format&fit=crop&w=1039&q=80") no-repeat;
+    background-size: cover;
+
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: cover;
+    background-position: 20% 1%;
+
+    background-attachment: fixed;
+    height: 100vw;
+    width: 100%;
+    overflow-y: scroll;
+
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: cover;
+    line-height: 1.5;
+    color: f5f5f5;
+    font-family: 'Indie Flower';
+    font-size: 30px;
+}
+
+#welcome-section {
+    height: 100vh;
+
+}
+
+h1, h2 {
+    font-family: 'Indie Flower';
+
+}
+
+h3 {
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+
+}
+
+.navbar nav {
+    background: #383838;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    color: #f5f5f5;
+    font-weight: bold;
+
+}
+
+.navbar-brand, .navbar-nav > li > a:hover {
+    color: #f5f5f5;
+    font-weight: bold;
+    font-size: 30px;
+    background: none;
+}
+
+.navbar-nav > li > a:after {
+    content: "/";
+    margin-left: 30px;
+}
+
+.navbar-nav > li:last-child > a:after {
+    content: "";
+}
+
+.navbar-toggle {
+    background: #111;
+}
+
+.navbar-toggle .icon-bar {
+    background: blue;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav > li > a:after {
+        content: '';
+    }
+
+    .navbar-nav > li > a {
+        background: #111;
+        border-radius: 4px;
+        margin-bottom: 3px;
+    }
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.lead, .project-tile {
+    font-size: 32px;
+    color: black;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.42;
+    border-radius: 15px;
+    color: white;
+    background: #3399ff;
+}
+
+.btn-circle2 {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.42;
+    border-radius: 15px;
+    color: white;
+    background: #0052cc;
+}
+
+.page-footer {
+    color: black;
+    background-color: #383838;
+    padding-bottom: 1rem;
+
+}
+
+.contact-form {
+    background: #ccccff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.portfolio-item {
+    margin-bottom: 1rem;
+}
+
